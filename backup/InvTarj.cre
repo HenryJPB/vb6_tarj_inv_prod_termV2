@@ -1,0 +1,68 @@
+/*------------------------------------------------------------
+      << Crear tablas:  Registro e impresion automatica de
+                        tarjetas para controles de Inventario de
+                        productos terminados.
+                        '''''''''''''''''''''''''''''''''''''
+  Autor: Henry J. Pulgar B.
+  Fecha Creacion     : Agosto 14, 2002.
+  Ult. Actualizacion :
+  Nombre del Archivo : InvTarj.cre
+ -------------------------------------------------------------*/
+
+CREATE TABLE INVTARJ00_DAT
+(
+  C0_TIPO_PROD      VARCHAR2(2)   NOT NULL,
+  C0_NORMA          VARCHAR2(30)
+);
+
+CREATE TABLE INVTARJ01_DAT
+(
+  C1_TIPO_PROD      VARCHAR2(2)  NOT NULL,
+  C1_FECHA_TARJ     DATE         NOT NULL,
+  C1_LOTE_ANT       NUMBER(5)    NOT NULL,
+  C1_LOTE_PROX      NUMBER(5)    NOT NULL,
+  C1_ORDEN_FAB      VARCHAR2(10),
+  C1_TIPO           VARCHAR2(25),
+  C1_ANCHO          NUMBER(9,3),
+  C1_DIAMETRO       VARCHAR2(25),
+  C1_PESO           NUMBER(9,3),
+  C1_LONGITUD       NUMBER(9,3),
+  C1_ESPACIAM       VARCHAR2(25),
+  C1_CANTIDAD       NUMBER(3),
+  C1_MAQUINA        VARCHAR2(25),
+  C1_TURNO          NUMBER(1)
+);
+
+/* Insertar un registro en nulo al crear por primera vez esta tabla.          */
+/* Insertar un registro en nulo. Ver Proyecto "IMPRIMIR TARJ de PROD en INV." */
+/* desarrollado en Visual Basic v6.0.                                         */
+insert into INVTARJ01_DAT ( C1_TIPO_PROD,
+                            C1_FECHA_TARJ,
+                            C1_LOTE_ANT,
+                            C1_LOTE_PROX )
+values  ( 'KK',
+          '29-08-2002',
+          0,
+          0 );
+
+/*----------------------DB Links----------------------------------*/
+/* Check out:  select * from USER_DB_LINKS                        */
+
+create view INV03_DAT
+as     select CODIGO, NOMBRE_CLI_PROV
+from   OPS$DESINV02.INV04_DAT@CONNECT_TO_HP;
+
+create view INV04_DAT
+as     select *
+from   OPS$DESINV02.INV04_DAT@CONNECT_TO_HP;
+
+
+/*-----------------INDEX CREATING DEFINITION----------------------*/
+
+create unique index INVTARJ00_IND on INVTARJ00_DAT
+( C0_TIPO_PROD );
+
+create index INVTARJ01_IND on INVTARJ01_DAT
+( C1_TIPO_PROD, C1_FECHA_TARJ, C1_LOTE_ANT, C1_LOTE_PROX );
+
+/*----------------------------EOF( InvTarj.cre ) ----------------------------*/

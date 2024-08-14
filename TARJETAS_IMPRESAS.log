@@ -1,0 +1,14 @@
+Línea 125: la clase MSDataGridLib.DataGrid del control grdDataGrid no era una clase de control cargada.
+Línea 132: el nombre de la propiedad _ExtentX de grdDataGrid no es válido.
+Línea 133: el nombre de la propiedad _ExtentY de grdDataGrid no es válido.
+Línea 134: el nombre de la propiedad _Version de grdDataGrid no es válido.
+Línea 135: el nombre de la propiedad AllowUpdate de grdDataGrid no es válido.
+Línea 136: el nombre de la propiedad AllowArrows de grdDataGrid no es válido.
+Línea 137: el nombre de la propiedad HeadLines de grdDataGrid no es válido.
+Línea 138: el nombre de la propiedad RowHeight de grdDataGrid no es válido.
+Línea 147: el nombre de la propiedad HeadFont de grdDataGrid no es válido.
+Línea 157: el nombre de la propiedad ColumnCount de grdDataGrid no es válido.
+Línea 170: el nombre de la propiedad Column00 de grdDataGrid no es válido.
+Línea 183: el nombre de la propiedad Column01 de grdDataGrid no es válido.
+Línea 184: el nombre de la propiedad SplitCount de grdDataGrid no es válido.
+Línea 190: el nombre de la propiedad Split0 de grdDataGrid no es válido.

@@ -1,0 +1,188 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Tarjetas Inventario Mallas Especiales]
+Icon1=Tarjetas.exe
+Title1=Tarjetas Inventario Mallas Especiales
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\My Installations\Tarjetas Inv
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+RESUMEN_TARJ_vFECHA.RDF=D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vFECHA.RDF
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\Archivos de programa\Archivos comunes\System\ado\MSADO20.TLB=
+C:\WINDOWS\SYSTEM\MSADO20.TLB=
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\orant\BIN\ORADC.OCX=
+D:\oracle10\product\10.2.0\client10\BIN\oradc.ocx=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\COMDLG32.OCX=
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\WINNT\system32\Mscomctl.ocx=
+C:\Archivos de programa\Archivos comunes\Designer\MSDERUN.DLL=
+C:\WINNT\system32\Msbind.dll=
+
+[Package|Paquete de instalación estándar 1|Files Added]
+resumen_tarj_vfecha.rdf=
+resumen_tarj_vtp.rdf=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\WINNT\system32\VB6ES.DLL=Yes
+C:\WINNT\system32\COMDLG32.OCX=Yes
+C:\WINNT\system32\CMDLGES.DLL=Yes
+C:\WINNT\system32\MSADODC.OCX=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\ADODCES.DLL=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado20.tlb=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\WINNT\system32\DATGDES.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\WINNT\system32\MSCMCES.DLL=Yes
+C:\WINNT\system32\DBLIST32.OCX=Yes
+C:\WINNT\system32\DBLSTES.DLL=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Archivos comunes\Designer\MSDERUN.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=Yes
+D:\oracle10\product\10.2.0\client10\BIN\oradc.ocx=Yes
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vFECHA.RDF=Yes
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vTP.RDF=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+E:\Vb6\Proyectos\TarjetasV2\Tarjetas.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINNT\system32\COMDLG32.OCX=$(WinSysPath)
+C:\WINNT\system32\CMDLGES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\STDFTES.DLL=$(WinSysPath)
+C:\WINNT\system32\ADODCES.DLL=$(WinSysPath)
+C:\Archivos de programa\Archivos comunes\System\ado\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+E:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Dpto Produccion DESICA\TarjetasV2\Support\Tarjetas.exe=$(AppPath)
+F:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\system32\DATGDES.DLL=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINNT\system32\MSCMCES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMDLGES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\STDFTES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ADODCES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DATGDES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\DBLSTES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSADO20.TLB=$(WinSysPath)
+C:\WINNT\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\system32\DBLSTES.DLL=$(WinSysPath)
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\RESUMEN_TARJ_vFECHA.RDF=$(AppPath)
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\RESUMEN_TARJ_vTP.RDF=$(AppPath)
+C:\Archivos de programa\Archivos comunes\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\orant\BIN\ORADC.OCX=$(WinSysPath)
+D:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=$(AppPath)
+D:\oracle10\product\10.2.0\client10\BIN\oradc.ocx=$(WinSysPath)
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vFECHA.RDF=$(AppPath)
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vTP.RDF=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+E:\Vb6\Proyectos\TarjetasV2\Tarjetas.exe=Yes
+D:\Dpto Produccion DESICA\TarjetasV2\Support\Tarjetas.exe=Yes
+F:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=Yes
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=Yes
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\RESUMEN_TARJ_vFECHA.RDF=Yes
+C:\Vb6\Proyectos\Tarjetas_Productos_Inv\RESUMEN_TARJ_vTP.RDF=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Vb6\Proyectos\Tarjetas_Productos_Inv\Tarjetas.exe=Yes
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vFECHA.RDF=Yes
+D:\Reports6\Tarj Inv Prod Term\RESUMEN_TARJ_vTP.RDF=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=1.2 MB
+Title=Tarjetas Inventario Productos Terminados
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=Verdadero
+Parent0=
+
+[Package|Paquete de instalación estándar 1|$(Programs)]
+Icon1=Tarjetas.exe
+Title1=Tarjetas Inventario Prod Terminados
+StartIn1=$(AppPath)
+Key1=Icon2
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=c:\My Installations\Tarjetas Inv
+ProjectFolder=D:\Vb6\Proyectos\Tarjetas_Productos_Inv
+ServerSideCab=
+File1=c:\My Installations\Tarjetas Inv\setup.exe
+File2=c:\My Installations\Tarjetas Inv\Setup.Lst
+File3=c:\My Installations\Tarjetas Inv\Tarjetas.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
